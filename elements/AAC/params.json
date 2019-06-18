@@ -1,0 +1,85 @@
+{
+    "add_hover_pressed": true,
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 50,
+        "width": 50
+    },
+    "display": "chartjs",
+    "edit_mode_image": "//s3.amazonaws.com/appforest_uf/f1516342331611x159621016820892700/Clear.png",
+    "fields": {
+        "AAD": {
+            "caption": "DATA: Source - Category",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "data_source_category",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAE": {
+            "caption": "DATA: Source - Value",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "data_source_value",
+            "rank": 1,
+            "value": "number"
+        },
+        "AAF": {
+            "caption": "DATA: Source - Color",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "data_source_color",
+            "optional": false,
+            "rank": 2,
+            "value": "text"
+        },
+        "AAG": {
+            "caption": "DATA: Serial - Label",
+            "default_val": "Chart1",
+            "editor": "DynamicValue",
+            "name": "data_source_label",
+            "rank": 3,
+            "value": "text"
+        },
+        "AAH": {
+            "caption": "DATA: Serial Background color",
+            "default_val": "rgba(0, 0, 0, 1)",
+            "editor": "Color",
+            "name": "data_source_bgcolor",
+            "rank": 4,
+            "value": "text"
+        },
+        "AAI": {
+            "caption": "DATA: Serial Border color",
+            "default_val": "rgba(0, 0, 0, 1)",
+            "editor": "Color",
+            "name": "data_source_bordercolor",
+            "rank": 5,
+            "value": "text"
+        },
+        "AAJ": {
+            "caption": "DATA: Serial Hover Background color",
+            "default_val": "rgba(0, 0, 0, 1)",
+            "editor": "Color",
+            "name": "data_source_hover_bgcolor",
+            "rank": 6
+        },
+        "AAK": {
+            "caption": "DATA: Serial Hover Border color",
+            "default_val": "rgba(0, 0, 0, 1)",
+            "editor": "Color",
+            "name": "data_source_hover_bordercolor",
+            "rank": 7
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "property_applications": {
+        "Background": true,
+        "Border": true,
+        "BoxShadow": true,
+        "Font": true,
+        "MinWidth": true,
+        "resizable": true
+    }
+}
